@@ -1,0 +1,6 @@
+.option {
+	padding: 4px 14px;
+}
+.option:hover {
+	background-color: var(--background-secondary);
+}
