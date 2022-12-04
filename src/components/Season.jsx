@@ -101,9 +101,11 @@ function Season(props) {
 			setExpand(false);
 			return setFilteredEpisodes(episodes);
 		}
-		props.expandSeries(true);
-		setExpand(true);
 		const fEpisodes = episodes.filter((e) => e.name.includes(searchTerm));
+		if (fEpisodes.length !== 0) {
+			props.expandSeries(true);
+			setExpand(true);
+		}
 		setFilteredEpisodes(fEpisodes);
 	}, [searchTerm]);
 

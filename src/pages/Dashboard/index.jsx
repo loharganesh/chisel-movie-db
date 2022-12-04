@@ -33,9 +33,6 @@ export default function Dashboard() {
 	const dispatch = useDispatch();
 	const series = useSelector(seriesSelector);
 	const columns = useSelector(selectColumns);
-	const mSeriesWithEpisodes = useSelector(seriesWithEpisodes);
-
-	const [filteredSeries, setFilteredSeries] = useState(null);
 
 	const onMount = async () => {
 		dispatch(fetchColumnsStart());
