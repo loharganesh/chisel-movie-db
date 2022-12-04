@@ -1,0 +1,42 @@
+.container {
+	position: relative;
+
+	width: 70px;
+
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 8px;
+	border-right: 16px solid transparent;
+	background-color: white;
+	border-color: transparent;
+	/* border: 1px solid var(--border_color); */
+	border-radius: var(--smooth-corners);
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.value {
+	flex: 1;
+}
+
+.chevron {
+	position: absolute;
+	right: 14px;
+	top: auto;
+	bottom: auto;
+}
+
+.options_container {
+	width: 70px;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	background-color: white;
+	border: 1px solid var(--border_color);
+	border-radius: var(--smooth-corners);
+}
+
+.option {
+	padding: 6px 14px;
+}

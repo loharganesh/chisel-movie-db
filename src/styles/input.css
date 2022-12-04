@@ -1,0 +1,29 @@
+.input {
+	font-family: Inter, sans-serif;
+	font-size: 14px;
+	height: 30px;
+	padding: 0 10px;
+	outline: none;
+	border: 1px solid var(--border_color);
+	border-radius: var(--smooth-corners);
+	font-weight: 500;
+}
+
+.inline_editable_input {
+	font-family: Inter, sans-serif;
+	font-size: 14px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	font-weight: 500;
+	cursor: text;
+	border: 1px solid transparent;
+	border-radius: 1000px;
+	transition-duration: 0.3s;
+}
+
+.inline_editable_input:focus {
+	background-color: white;
+	border-color: var(--border_color);
+	padding: 5px 14px;
+}

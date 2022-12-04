@@ -1,0 +1,20 @@
+.container {
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 24px;
+	gap: 12px;
+}
+
+.delete_icon {
+	display: none;
+}
+
+.container:hover .delete_icon {
+	display: flex;
+}
+
+.column_name {
+	width: 100%;
+}

@@ -1,0 +1,9 @@
+.title {
+	font-size: 15px;
+	font-weight: 500;
+	flex: 1;
+}
+
+.title.semibold {
+	font-weight: 600;
+}

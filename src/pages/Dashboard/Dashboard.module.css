@@ -1,0 +1,23 @@
+.container {
+	overflow-y: scroll;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(249, 251, 252);
+	padding: 14px;
+	overflow-x: auto;
+}
+
+.search_container {
+	padding: 14px 18px;
+	border-bottom: 1px solid lightgray;
+}
+
+.input_container {
+	width: 368px;
+	padding: 8px 16px;
+	border-right: 1px solid var(--border_color);
+}
+.series_input {
+	width: 100%;
+}
